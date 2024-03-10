@@ -1,0 +1,19 @@
+{
+  "name": "sockets",
+  "version": "1.0.0",
+  "description": "Proyecto de chat con node y socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Goncalves",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "^4.7.4",
+    "xpress": "^2.4.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
